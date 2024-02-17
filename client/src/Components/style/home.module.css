@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  
+}
+.container_home {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(245, 242, 255);
+  background-image: url('./images/bg-black.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 30px;
+}
+.login_form{
+  width: 40%;
+}
+
+.heading{
+  font-family: "Sacramento", cursive;
+  color: antiquewhite;
+  font-size:100%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+/* Bordered form */
+form {
+  /* border: 3px solid #f1f1f1; */
+  padding:  5%  20%  5%  20% ;
+  text-align: left;
+  background-color: rgba(21, 24, 27,0.8);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+  font-family: 'Rubik', sans-serif;
+}
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #ab9ff2;
+  background-color: rgb(232, 144, 170);
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 700;
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  
+}
+/*  */
